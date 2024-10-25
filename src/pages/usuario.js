@@ -10,7 +10,7 @@ export default function Usuario() {
   return (
     <div style={styles.container}>
       <header style={styles.header}>
-        <p style={styles.userInfo}>Bem-vindo, usuário123</p>
+        <p style={styles.userInfo}>Bem-vindo, teste</p>
         <button onClick={handleLogout} style={styles.logoutButton}>Desconectar</button>
       </header>
       <main style={styles.content}>

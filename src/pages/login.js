@@ -8,7 +8,7 @@ export default function Login() {
   const router = useRouter();
 
   const handleLogin = () => {
-    if (usuario === 'usuario123' && senha === 'senha123') {
+    if (usuario === 'teste' && senha === '12345678') {
       router.push('/usuario');
     } else {
       setErro('Usuário ou senha inválidos');
